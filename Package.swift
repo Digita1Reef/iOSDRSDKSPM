@@ -22,7 +22,7 @@ let package = Package(
         .binaryTarget(
             name: "DigitalReefSDK",
             url: "https://github.com/Digita1Reef/iOSDRSDKSPM/releases/download/4.6.0/DigitalReefSDK_4.6.0.zip",
-            checksum: "bc65e3b0e9782432ec69a8f6dd70b980e16bb7e5bc0163da7bc77fa22da0939d"),
+            checksum: "1cc237a10312c9d689019a54d661ec5c998ccaa75158c29c3ec0d06cfcd2828b"),
         .target(
             name: "iOSDRSDKSPM",
             dependencies: [
