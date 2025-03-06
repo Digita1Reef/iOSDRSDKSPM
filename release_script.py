@@ -53,7 +53,7 @@ if __name__ == "__main__":
                         help="the version code for this release")
 
     args = parser.parse_args()
-    version_code = "4.28.1"
+    version_code = "4.28.2"
 
     zip_xcframework(version_code)
     checksum = calculate_checksum(version_code)
