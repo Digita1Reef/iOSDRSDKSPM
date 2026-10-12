@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "iOSDRSDKSPM",
-    platforms: [.iOS(.v15)],
+    platforms: [.iOS(.v13)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -21,8 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "DigitalReefSDK",
-            url: "https://github.com/Digita1Reef/iOSDRSDKSPM/releases/download/4.29.2/DigitalReefSDK_4.29.2.zip",
-            checksum: "6873b12a53bdb133f6aee72e23d16c28eae049a0831c64ddcf0cfbd26acc624a"),
+            url: "https://github.com/Digita1Reef/iOSDRSDKSPM/releases/download/4.29.1/DigitalReefSDK_4.29.1.zip",
+            checksum: "8caea521122ecab8dc6a6e29db80d325d69e281151fbceb058fa9583cf05a49a"),
         .target(
             name: "iOSDRSDKSPM",
             dependencies: [
