@@ -21,8 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "DigitalReefSDK",
-            url: "https://github.com/Digita1Reef/iOSDRSDKSPM/releases/download/4.29.3/DigitalReefSDK_4.29.3.zip",
-            checksum: "2b16febe77f5f7f6331c5569ec3ba6d6f274dc04fe32ad2908d6fcfa39f90665"),
+            url: "https://github.com/Digita1Reef/iOSDRSDKSPM/releases/download/4.29.3-xcode26-build.1/DigitalReefSDK_4.29.3-xcode26-build.1.zip",
+            checksum: "734d659e1c6b4ebde0a7ff739e36787b4e1269dfd91dc3f49ddf76c46b9f0925"),
         .target(
             name: "iOSDRSDKSPM",
             dependencies: [
